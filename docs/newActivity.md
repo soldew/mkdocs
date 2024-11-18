@@ -5,17 +5,63 @@
 	This repository provides some help and sample code for using the DocProStar SDK.
 	If you have any questions, pleaes contact the product or development department of TCG Informatik AG.
 
-``` py hl_lines="2 3" title="Sort your parameters"
-def Set_Items(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]: # (1)
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
+!!! dps-example "Process your root document"
+	=== "C#"
+		``` c# linenums="1" hl_lines="6 7 8 9" title="C# Process your root document"
+		public override void ProcessDocument(DtoWorkItemData workItemInProgress,
+											STGDocument documentToProcess)
+		{
+			foreach(var fields in documentToProcess.Fields)
+			{
+				foreach (var f in documentToProcess.IndexFields)
+				{
+					f.FieldValue.Set(true); // # (1)  
+				} 
+			}
+		}
 
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
-	
+		```  
+
+	=== "Java script"
+		``` java linenums="1" hl_lines="6 7 8 9" title="C# Process your root document"
+		function reverseString(str) {
+
+			// empty string
+			let newString = "";
+			for (let i = str.length - 1; i >= 0; i--) {
+				newString += str[i];
+			}
+			return newString;
+		} 
+		```
+
+	=== "Phyton"
+		``` py linenums="1" hl_lines="6 7 8 9" title="C# Process your root document"
+			import pandas as pd
+			# Read data from a CSV file
+			data = pd.read_csv('data.csv')
+
+			# Perform basic analysis
+			mean = data['column_name'].mean()
+			print(f"Mean: {mean}")
+		```  
+
+	=== "Cobol"  
+
+		``` cobol linenums="1" hl_lines="6 7 8 9" title="C# Process your root document"
+			*> setup the identification division
+            IDENTIFICATION DIVISION.
+            *> setup the program id
+            PROGRAM-ID. HELLO.
+            *> setup the procedure division (like 'main' function)
+            PROCEDURE DIVISION.
+              *> print a string
+              DISPLAY 'WILLKOMMEN'.
+            *> end our program
+            STOP RUN.
+
+		```
+
 !!! dps-tip "ActivityDebugger"
 	Contains C# project, which allows you to start a windows forms application, this will allow you to debug your activity, without attaching to any service.
 

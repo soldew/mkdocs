@@ -9,6 +9,9 @@
   --md-admonition-icon--dps-option: url(list-box-outline.svg);
 }
 
+body {
+  /*background: gainsboro;*/
+}
 /* Admonition style for examples */
 .md-typeset .admonition.dps-example,
 .md-typeset details.dps-example {
