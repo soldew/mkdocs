@@ -7,6 +7,12 @@ nav:
     - DocProStar:
         - Home: DocProStar.md
         - SDK: newActivity.md
+  - Zendesk Articles:
+    - Activity Routing: "Activity Routing.md"
+    - Activity Types: Activity Types.md
+    - Custom Value Evaluation: Custom Value Evaluation Methods.md
+    - Field Evaluation: Field Evaluation Methods.md
+    - Timer Settings: Timer Settings.md
 
 theme:
   name: material
