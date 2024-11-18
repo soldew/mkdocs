@@ -1,0 +1,82 @@
+:root {
+  --md-primary-fg-color:        #53534D;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+  --md-accent-fg-color: steelblue;
+  --md-admonition-icon--dps-example: url(hexagon-multiple-outline.svg);
+  --md-admonition-icon--dps-tip: url(light-bulb-24.svg);
+  --md-admonition-icon--dps-note: url(alert-circle-outline.svg);
+  --md-admonition-icon--dps-option: url(list-box-outline.svg);
+}
+
+/* Admonition style for examples */
+.md-typeset .admonition.dps-example,
+.md-typeset details.dps-example {
+  border-color: Gainsboro;
+}
+.md-typeset .dps-example > .admonition-title,
+.md-typeset .dps-example > summary {
+  background-color: SteelBlue; /* PowderBlue; */
+  color:white;
+  border-bottom: 1px solid Gainsboro;
+}
+.md-typeset .dps-example > .admonition-title::before,
+.md-typeset .dps-example > summary::before {
+  background-color: white;
+  -webkit-mask-image: var(--md-admonition-icon--dps-example);
+          mask-image: var(--md-admonition-icon--dps-example);
+}
+
+/* Admonition style for tips */
+.md-typeset .admonition.dps-tip,
+.md-typeset details.dps-tip {
+  border-color: Gainsboro;
+}
+.md-typeset .dps-tip > .admonition-title,
+.md-typeset .dps-tip > summary {
+  background-color: GhostWhite;
+  color:black;
+  border-bottom: 1px solid Gainsboro;
+}
+.md-typeset .dps-tip > .admonition-title::before,
+.md-typeset .dps-tip > summary::before {
+  background-color: black;
+  -webkit-mask-image: var(--md-admonition-icon--dps-tip);
+          mask-image: var(--md-admonition-icon--dps-tip);
+}
+
+/* Admonition style for options */
+.md-typeset .admonition.dps-option,
+.md-typeset details.dps-option {
+  border-color: Gainsboro;
+}
+.md-typeset .dps-option > .admonition-title,
+.md-typeset .dps-option > summary {
+  background-color: white;
+  color:black;
+  border-bottom: 1px solid Gainsboro;
+}
+.md-typeset .dps-option > .admonition-title::before,
+.md-typeset .dps-option > summary::before {
+  background-color: black;
+  -webkit-mask-image: var(--md-admonition-icon--dps-option);
+          mask-image: var(--md-admonition-icon--dps-option); 
+}
+
+/* Admonition style for notes */
+.md-typeset .admonition.dps-note,
+.md-typeset details.dps-note {
+  border-color: Gainsboro;
+}
+.md-typeset .dps-note > .admonition-title,
+.md-typeset .dps-note > summary {
+  background-color: Linen;
+  color:black;
+  border-bottom: 1px solid Gainsboro;
+}
+.md-typeset .dps-note > .admonition-title::before,
+.md-typeset .dps-note > summary::before {
+  background-color: black;
+  -webkit-mask-image: var(--md-admonition-icon--dps-note);
+          mask-image: var(--md-admonition-icon--dps-note);
+}

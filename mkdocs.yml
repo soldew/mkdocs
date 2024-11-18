@@ -1,5 +1,45 @@
-site_name: My Docs
+site_name: TCG github
 site_url: https://sitename.example
 
+nav:
+  - Home: index.md
+  - Products: 
+    - DocProStar:
+        - Home: DocProStar.md
+        - SDK: newActivity.md
+
 theme:
-  material
+  name: material
+  favicon: assets/favicon.png
+  logo: assets/favicon.png 
+  font:
+    text: Roboto
+  palette:
+    primary: custom
+    accent: custom
+  icon:
+    admonition:
+       quote: material/test-tube
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - stylesheets/styles.css
+
+plugins:
+  - search:
+      enabled: true
+      
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details

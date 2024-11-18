@@ -1,17 +1,9 @@
-# Welcome to MkDocs from Sven Oldewurtel
+# Automate your document-centric business processes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+TCG Process provides end-to-end orchestration, leveraging AI and intelligent document processing technologies to automate workflows and optimize operations.
+Boost agility. Maximize productivity. Supercharge efficiency.
 
-## Commands
+[Schedule a demo](#){ .md-button }
+[Subscribe to our newsletter](#){ .md-button }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![Image title](assets/image1.png){ align=left }
