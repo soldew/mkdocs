@@ -47,7 +47,7 @@ Select this mode to start a time-driven activity on a monthly basis. To set the 
 If needed, change the time zone that is set to “Local Server Time” by default.
 You can configure repeatability for restarting the activity, for example, on February, 2nd every year or on the third Tuesday every month. To specify a certain day of a month, select Day from the Mode drop-down list, then select the month from the Month to run drop-down list and finally, the date within a month. Note that the Days to run drop-down list may list more days then the selected month provides. Please ensure that the day selected for the Days to run drop-down list is available for the month selected for the Month to run drop-down list, otherwise the activity is not restarted.
 
-The selected month and days are listed above the drop-down list and provide a Delete button. To remove the selection for a month or day, click the Delete button or click the DOWN ARROW for the drop-down list to clear the selection for the corresponding month, respectively, day.
+The selected month and days are listed above the drop-down list and provide a Delete button. To remove the selection for a month or day, click the Delete button or click the DOWN ARROW for the drop-down list to clear the selection for the corresponding month, respectively, day.  
 
 
 !!! dps-note "Important"
