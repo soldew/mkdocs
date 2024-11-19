@@ -11,7 +11,11 @@ Open Terminal, to create a new project enter:
 
 
 Github commands in Visual Studio Code to commit changes
-git add . (all changes will be committed)
-git status (displays the changes to commit)
-git commit -m "Comment"
-git push
+
+# git add . (all changes will be committed)
+
+# git status (displays the changes to commit)
+
+# git commit -m "Comment"
+
+# git push
