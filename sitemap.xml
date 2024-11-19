@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sitename.example/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Activity%20Routing/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Activity%20Types/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Custom%20Value%20Evaluation%20Methods/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/DocProStar/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Field%20Evaluation%20Methods/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Timer%20Settings/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/newActivity/</loc>
+         <lastmod>2024-11-19</lastmod>
+    </url>
+</urlset>
